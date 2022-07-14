@@ -1,0 +1,16 @@
+{
+  "name": "cghsir.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cghsir/cghsir.github.io.git",
+  "author": "zhanghua <zhanghua>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "moment": "^2.29.4",
+    "vuepress": "^1.9.7"
+  }
+}
